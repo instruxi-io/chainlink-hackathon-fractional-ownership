@@ -61,7 +61,7 @@ Follow the steps below to fractionalize an NFT and interact with the system:
 	npx hardhat functions-approve --tokenid 1 --network avalancheFuji
 	```
 
-10. Simulate and calculate fractional reserve:
+10. Calculate fractional reserve:
 	a. Simulate fractionalization (optional):
    ```
    npx hardhat functions-simulate --tokenid 1

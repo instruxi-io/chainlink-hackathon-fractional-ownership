@@ -1,4 +1,5 @@
-# Chainlink Hackathon - Real World Asset Ownership Fractionalization Powered by Chainlink Functions and Space and Time
+## Isntruxi and ION Digital's Chainlink Hackathon Submission 
+### Real World Asset Ownership Fractionalization Powered by Chainlink Functions and Space and Time
 
 [Solution Design and Submission Pack](https://docs.google.com/presentation/d/1xBJLH-ex_KknDGKJCoek4rDco13qPFPQWELAWgcR5T4/edit#slide=id.g247af4fc729_0_90)
 

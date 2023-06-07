@@ -1,0 +1,68 @@
+{
+  "metis": {
+    "testnet": {},
+    "mainnet": {}
+  },
+  "avalanche": {
+    "testnet": {},
+    "mainnet": {}
+  },
+  "ethereum": {
+    "testnet": {
+      "contractAddress": "0x6127e92F3d4909c8f2f35c7f755caC6b2e5cA541",
+      "factoryAddress": "0xDc2bb0a8acB17616E967D9C63243e6F53A39dAA2",
+      "proxyAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "mainnet": {}
+  },
+  "polygon": {
+    "testnet": {},
+    "mainnet": {}
+  },
+  "localhost": {
+    "testnet": {},
+    "mainnet": {}
+  },
+  "hardhat": {
+    "testnet": {
+      "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "factoryAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "proxyAddress": "0xCafac3dD18aC6c6e92c921884f9E4176737C052c",
+      "fractionalTokenContractAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "fractionalNftContractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "fractionalVaultContractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+    }
+  },
+  "goerli": {
+    "testnet": {
+      "contractAddress": "",
+      "factoryAddress": "",
+      "proxyAddress": ""
+    }
+  },
+  "edge": {
+    "testnet": {}
+  },
+  "avalancheFuji": {
+    "testnet": {
+      "contractAddress": "0x0718ED3c15A35Ad0AD46229d7658C6c53E0426c6",
+      "factoryAddress": "0x1B1D60381Da7c05f67A3EB55B77c23cEc3D99878",
+      "proxyAddress": "0x8077c9a36d4d46eB0C2F4aF74AC80256DA70A127",
+      "fractionalTokenContractAddress": "0xB03DA1512bA44c9F19eb92E8Df492DFcF5bc57c6",
+      "fractionalNftContractAddress": "0x48CE420b9c7aE71785a108b6c89F9Ed03D1bb06D",
+      "fractionalVaultContractAddress": "0x7eA0FA09bCf8A01Bf94350a2E7FfEBaf3c7C0b3C"
+    }
+  },
+  "ganache": {
+    "testnet": {
+      "fractionalNftContractAddress": "0x5f28FE4B9A53093dB5A1e89D552192fBe7830865",
+      "fractionalTokenContractAddress": "0x40553DF9172df85204ab0b3f0920a6Dd5462fe22",
+      "fractionalVaultContractAddress": "0x22f5E0f6f7526db7c2e837A409c7e7Ad0Bc703e2"
+    }
+  },
+  "fuji": {
+    "testnet": {
+      "fractionalNftContractAddress": "0xf7388DC801A86E95d1fAF6C117de4211033FcBA7"
+    }
+  }
+}

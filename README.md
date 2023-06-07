@@ -48,13 +48,13 @@ Follow the steps below to fractionalize an NFT and interact with the system:
 	```
 	npx hardhat functions-sub-add --contract <vault_address> --subid 7 --network avalancheFuji
 	```
-	Note: Replace `<vault_address>` with the actual address of the deployed vault contract.
+	Note: Replace ```<vault_address>``` with the actual address of the deployed vault contract.
 
 8. Mint the NFT:
 	```
 	npx hardhat functions-mint --network avalancheFuji --tokenid 1
 	```
-	Note: Replace `1` with the desired token ID.
+	Note: Replace ```1``` with the desired token ID.
 
 9. Approve the NFT for deposit:
 	```
@@ -72,7 +72,7 @@ Follow the steps below to fractionalize an NFT and interact with the system:
    npx hardhat functions-deposit --subid 7 --network avalancheFuji --tokenid 1 --gaslimit 300000
    ```
    
-   Note: Replace `<subid>` with the Chainlink Functions subscription ID associated with your wallet. For more information on setting up a Chainlink Functions subscription, follow their tutorial here https://docs.chain.link/chainlink-functions.
+   Note: Replace ```<subid>``` with the Chainlink Functions subscription ID associated with your wallet. For more information on setting up a Chainlink Functions subscription, follow their tutorial here https://docs.chain.link/chainlink-functions.
 
 That's it! You have now successfully fractionalized the NFT
 

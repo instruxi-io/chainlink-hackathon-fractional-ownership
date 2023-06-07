@@ -61,13 +61,12 @@ Follow the steps below to fractionalize an NFT and interact with the system:
 	npx hardhat functions-approve --tokenid 1 --network avalancheFuji
 	```
 
-10. Calculate fractional reserve: \
-	a. Simulate fractionalization (optional):
+10. Simulate fractionalization (optional): 
    ```
    npx hardhat functions-simulate --tokenid 1
    ```
 
-	b. Deposit the NFT into the vault:
+11. Deposit the NFT into the vault:
    ```
    npx hardhat functions-deposit --subid 7 --network avalancheFuji --tokenid 1 --gaslimit 300000
    ```
@@ -83,7 +82,7 @@ Our reporting data model and SxT Cloudflare worker were all also developed for t
 Configure Cloudflare Workers and Space and Time Integration: https://github.com/instruxi-io/cloudfare-sxt-functions
 Space and Time reporting data model here https://github.com/instruxi-io/fractional-token-data-model and the reporting dashboard here https://query-anywhere-staging.instruxi.dev/. 
 
-Hackathon judges can use the temporary username and password to login to the dashboard. Note that you may need to refresh charts manually. Space and Time and Isntruxi are working hard to support concurrent JDBC requests.
+Hackathon judges can use the temporary username and password to login to the dashboard. Note that you may need to refresh charts manually. Space and Time and Instruxi are working hard to support concurrent JDBC requests.
 
 **Username:**  hackathon2023
 **Password:**  hackathon2023

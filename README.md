@@ -14,7 +14,7 @@ Vault - https://testnet.snowtrace.io/address/0x7eA0FA09bCf8A01Bf94350a2E7FfEBaf3
 
 Dashboard - https://query-anywhere-staging.instruxi.dev/
 
-![Process](https://gateway.pinata.cloud/ipfs/QmPSPuTsWDD2nXNhDwAD4nvF3bAB86zenDZ2cLtYDJ1x8v=200x200)
+<img src="https://gateway.pinata.cloud/ipfs/QmPSPuTsWDD2nXNhDwAD4nvF3bAB86zenDZ2cLtYDJ1x8v" alt= "" width="200" height="200">
 
 ## Prerequisites
 

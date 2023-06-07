@@ -25,65 +25,65 @@ Before proceeding, ensure that you have the following set up:
 ## Installation and Setup
 
 1. Clone this repository to your local machine:
-	```
-	git clone <repository_url>
-	```
+```
+git clone <repository_url>
+```
 
 2. Change into the project's directory:
-	```
-	cd <project_directory>
-	```
+```
+cd <project_directory>
+```
 
 3. Install project dependencies using npm:
-	```
-	npm install
-	```
+```
+npm install
+```
 
 ## Usage
 
 Follow the steps below to fractionalize an NFT and interact with the system:
 
 4. Deploy the NFT smart contract:
-	```
-	npx hardhat functions-deploy-NFT --verify true --network avalancheFuji
-	```
+```
+npx hardhat functions-deploy-NFT --verify true --network avalancheFuji
+```
 
 5. Deploy the token contract:
-	```
-	npx hardhat functions-deploy-token --verify true --network avalancheFuji
-	```
+```
+npx hardhat functions-deploy-token --verify true --network avalancheFuji
+```
 
 6. Deploy the vault contract:
-	```
-	npx hardhat functions-deploy-vault --verify true --network avalancheFuji
-	```
+```
+npx hardhat functions-deploy-vault --verify true --network avalancheFuji
+```
 
 7. Add a subscription to the vault contract:
-	```
-	npx hardhat functions-sub-add --contract <vault_address> --subid 7 --network avalancheFuji
-	```
-	Note: Replace ```<vault_address>``` with the actual address of the deployed vault contract.
+```
+npx hardhat functions-sub-add --contract <vault_address> --subid 7 --network avalancheFuji
+```
+Note: Replace ```<vault_address>``` with the actual address of the deployed vault contract.
 
 8. Mint the NFT:
-	```
-	npx hardhat functions-mint --network avalancheFuji --tokenid 1
-	```
-	Note: Replace ```1``` with the desired token ID.
+```
+npx hardhat functions-mint --network avalancheFuji --tokenid 1
+```
+Note: Replace ```1``` with the desired token ID.
 
 9. Approve the NFT for deposit:
-	```
-	npx hardhat functions-approve --tokenid 1 --network avalancheFuji
-	```
+```
+npx hardhat functions-approve --tokenid 1 --network avalancheFuji
+```
 
 10. Simulate fractionalization (optional): 
-   ```
-   npx hardhat functions-simulate --tokenid 1
-   ```
+```
+npx hardhat functions-simulate --tokenid 1
+```
 
 11. Deposit the NFT into the vault:
-   ```
-   npx hardhat functions-deposit --subid 7 --network avalancheFuji --tokenid 1 --gaslimit 300000
-   ```
+```
+npx hardhat functions-deposit --subid 7 --network avalancheFuji --tokenid 1 --gaslimit 300000
+```
    
    Note: Replace ```<subid>``` with the Chainlink Functions subscription ID associated with your wallet. For more information on setting up a Chainlink Functions subscription, follow their tutorial here https://docs.chain.link/chainlink-functions.
 
@@ -96,10 +96,7 @@ Our reporting data model and SxT Cloudflare worker were all also developed for t
 [Configure Cloudflare Workers and Space and Time Integration](https://github.com/instruxi-io/cloudfare-sxt-functions)
 Space and Time reporting data model [here](https://github.com/instruxi-io/fractional-token-data-model) and the reporting dashboard [here](https://query-anywhere-staging.instruxi.dev/). 
 
-Hackathon judges can use the temporary username and password to login to the dashboard. Note that you may need to refresh charts manually. Space and Time and Instruxi are working hard to support concurrent JDBC requests.
+Hackathon judges can use the temporary username and password to login to the dashboard. Note that you may need to refresh charts manually. Space and Time and Instruxi are working hard to support concurrent JDBC requests. Contact **austin@instruxi.io** with any issues or concerns.
 
 **Username:**  hackathon2023
-**Password:**  hackathon2023
-
-
-  
+**Password:**  Hackathon@2023

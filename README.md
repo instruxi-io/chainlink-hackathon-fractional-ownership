@@ -56,7 +56,7 @@ Follow the steps below to fractionalize an NFT and interact with the system:
 	```
 	Note: Replace `1` with the desired token ID.
 
-9 Approve the NFT for deposit:
+9. Approve the NFT for deposit:
 	```
 	npx hardhat functions-approve --tokenid 1 --network avalancheFuji
 	```
